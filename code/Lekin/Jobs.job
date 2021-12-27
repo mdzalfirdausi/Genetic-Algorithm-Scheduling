@@ -1,0 +1,201 @@
+Shop:               Job
+Job:                J1
+  RGB:                29;231;219
+  Release:            0
+  Due:                0
+  Weight:             20
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;6;A
+  Oper:               C400;999;A
+
+Job:                J2
+  RGB:                230;130;212
+  Release:            0
+  Due:                0
+  Weight:             19
+  Oper:               TC-110;40;A
+  Oper:               Feeder;45;A
+  Oper:               TC-77;55;A
+  Oper:               C400;999;A
+
+Job:                J3
+  RGB:                215;255;15
+  Release:            0
+  Due:                0
+  Weight:             18
+  Oper:               TC-110;17;A
+  Oper:               Feeder;13;A
+  Oper:               TC-77;20;A
+  Oper:               C400;999;A
+
+Job:                J4
+  RGB:                63;212;85
+  Release:            0
+  Due:                0
+  Weight:             17
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;8;A
+  Oper:               C400;999;A
+
+Job:                J5
+  RGB:                245;100;51
+  Release:            0
+  Due:                0
+  Weight:             16
+  Oper:               TC-110;35;A
+  Oper:               Feeder;40;A
+  Oper:               TC-77;45;A
+  Oper:               C400;999;A
+
+Job:                J6
+  RGB:                135;255;249
+  Release:            0
+  Due:                0
+  Weight:             15
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;5;A
+  Oper:               C400;999;A
+
+Job:                J7
+  RGB:                202;58;142
+  Release:            0
+  Due:                0
+  Weight:             14
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;5;A
+  Oper:               C400;999;A
+
+Job:                J8
+  RGB:                88;175;189
+  Release:            0
+  Due:                0
+  Weight:             13
+  Oper:               TC-110;25;A
+  Oper:               Feeder;25;A
+  Oper:               TC-77;35;A
+  Oper:               C400;999;A
+
+Job:                J9
+  RGB:                192;16;228
+  Release:            0
+  Due:                0
+  Weight:             12
+  Oper:               TC-110;999;A
+  Oper:               Feeder;999;A
+  Oper:               TC-77;999;A
+  Oper:               C400;50;A
+
+Job:                J10
+  RGB:                8;253;102
+  Release:            0
+  Due:                0
+  Weight:             11
+  Oper:               TC-110;18;A
+  Oper:               Feeder;20;A
+  Oper:               TC-77;26;A
+  Oper:               C400;999;A
+
+Job:                J11
+  RGB:                241;247;118
+  Release:            0
+  Due:                0
+  Weight:             10
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;5;A
+  Oper:               C400;999;A
+
+Job:                J12
+  RGB:                158;206;35
+  Release:            0
+  Due:                0
+  Weight:             9
+  Oper:               TC-110;10;A
+  Oper:               Feeder;10;A
+  Oper:               TC-77;12;A
+  Oper:               C400;999;A
+
+Job:                J13
+  RGB:                146;92;242
+  Release:            0
+  Due:                0
+  Weight:             8
+  Oper:               TC-110;10;A
+  Oper:               Feeder;12;A
+  Oper:               TC-77;20;A
+  Oper:               C400;999;A
+
+Job:                J14
+  RGB:                162;192;230
+  Release:            0
+  Due:                0
+  Weight:             7
+  Oper:               TC-110;5;A
+  Oper:               Feeder;5;A
+  Oper:               TC-77;6;A
+  Oper:               C400;999;A
+
+Job:                J15
+  RGB:                205;121;16
+  Release:            0
+  Due:                0
+  Weight:             6
+  Oper:               TC-110;10;A
+  Oper:               Feeder;12;A
+  Oper:               TC-77;15;A
+  Oper:               C400;999;A
+
+Job:                J16
+  RGB:                136;229;127
+  Release:            0
+  Due:                0
+  Weight:             5
+  Oper:               TC-110;999;A
+  Oper:               Feeder;999;A
+  Oper:               TC-77;999;A
+  Oper:               C400;10;A
+
+Job:                J17
+  RGB:                167;84;198
+  Release:            0
+  Due:                0
+  Weight:             4
+  Oper:               TC-110;999;A
+  Oper:               Feeder;999;A
+  Oper:               TC-77;999;A
+  Oper:               C400;10;A
+
+Job:                J18
+  RGB:                221;161;82
+  Release:            0
+  Due:                0
+  Weight:             3
+  Oper:               TC-110;999;A
+  Oper:               Feeder;999;A
+  Oper:               TC-77;999;A
+  Oper:               C400;10;A
+
+Job:                J19
+  RGB:                239;95;135
+  Release:            0
+  Due:                0
+  Weight:             2
+  Oper:               TC-110;6;A
+  Oper:               Feeder;6;A
+  Oper:               TC-77;7;A
+  Oper:               C400;999;A
+
+Job:                J20
+  RGB:                63;118;251
+  Release:            0
+  Due:                0
+  Weight:             1
+  Oper:               TC-110;999;A
+  Oper:               Feeder;999;A
+  Oper:               TC-77;999;A
+  Oper:               C400;5;A
+

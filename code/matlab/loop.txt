@@ -1,0 +1,38 @@
+% clear command window
+clc
+% clear workspace
+clear
+
+% import data
+% pijk = readmatrix('data paper.xlsx','Sheet',"process time","Range",'C2:F9')
+% sijk = readmatrix('data paper.xlsx','Sheet',"assignment","Range",'C2:F9')
+
+pij = [1 3 4 1;3 8 2 1;3 5 4 7;4 1 1 4;2 3 9 3;9 1 2 2;8 6 3 5;4 5 8 1]
+sijk = [0 0 0 1;0 0 0 1;1 0 0 0;0 1 0 0;1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]
+[rowpij colpij] = size(pij)
+dm = zeros(1,colpij)
+dj = zeros(1,3)
+
+O=[3 3 2]
+E=zeros(3,3)
+[rowE colE] = size(O)
+
+for i=1:colE
+    for j=1:O(i)
+  row=i+sum(O(1:(j-1)));
+  [maxval col]=max(sijk(row,:));
+  d=pij(row,col);
+  E(i,j)=d;
+    end
+    e_sort=sort(E(i,:));
+    e_sort(e_sort==0)=[];
+     for j=1:O(i)
+      dmdj = [dm(col) dj(colE)]
+      t(i,j) = max(dmdj)
+      
+      dm(col) = t(i,j) + max(sijk(row,:))
+      dj()
+     end
+end
+
+

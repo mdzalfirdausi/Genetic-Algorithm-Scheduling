@@ -1,0 +1,31 @@
+% Membersihkan layar
+clc
+% Membersihkan memori
+clear
+
+% Copy original data to a new matrix
+pijk = readmatrix('data siap olah - 2 sheets.xlsx','Sheet',"dataready 99",'Range','C2:K54')
+pijk_new=pijk
+S=zeros(size(pijk))
+[row_pijk col_pijk]=size(pijk)
+
+% start iteration from 1 to num of col pijk
+for i=1:row_pijk
+    % Mencari kolom,baris dari nilai minimal
+    [minvalue,index]=min(pijk_new(i,:))
+    barismin = pijk_new(i,:)
+    %[row,col]=ind2sub(size(pijk_new),index)
+    % Menyimpan baris tempat element minimal
+    %barismin = pijk_new(index,:)
+    % baris minimal jadi angka besar
+    pijk_new(i,:)=999
+    % Menambahkan element2 di kolom minimal dengan minvalue
+    pijk_new(:,index)=pijk_new(:,index)+minvalue
+    % Mengganti semua element di baris minimal dengan 0
+    barismin(:)=0
+    % Mengganti element di barismin dan kolom minimal dengan 1
+    barismin(index)=1
+    % Menyimpan baris minimal di variabel array
+    %barismin_simpan{i}=barismin
+    S(i,:) = barismin
+end
